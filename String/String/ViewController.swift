@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         view.addSubview(scrollView!)
         
         originTextField = UITextField(frame: CGRectMake(0, 10, width, 2 * height))
-        originTextField!.text = "m朝日   残莺伴妾啼，m开帘只见草萋萋。    D庭前时有东风入，0杨柳千条尽向西。"
+        originTextField!.text = "m朝日      残莺伴    妾啼，m开帘只见草萋萋。    D庭前时有东风入，0杨柳千条尽向西。"
         originTextField!.font = UIFont.systemFontOfSize(14.0)
         originTextField!.backgroundColor = UIColor.yellowColor()
         scrollView?.addSubview(originTextField!)
